@@ -1,17 +1,36 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>login</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-  <ion-button routerLink="/register">
-    Regsiter
-  </ion-button>
-  <ion-button routerLink="/tabs">
-    Tabs
-  </ion-button>
-  <ion-button routerLink="/forgot-password">
-    ForgotPassword
-  </ion-button>
+  <div class="image">
+  <img src="assets/icon/image1.png" alt="welcome">
+  <h1>Welcome To Rozana</h1>
+    <p class="s">Login to continue</p>
+    </div>
+    <form class="ion-padding">
+
+      <div class="wrap-input">
+      
+        <input class="input" type="email" name="Email" placeholder="Email">
+        
+       </div>
+  
+      <div class="wrap-input">
+      <input class="input" type="password" name="password" placeholder="Password">
+      </div>
+
+      <div>
+        <p class="forgot" routerLink="/forgot-password">Forgot Password?</p> 
+      </div>
+      
+       <div>
+        <ion-button class="login" routerLink="/tabs">Login</ion-button>
+      </div>
+
+
+    </form>
 </ion-content>
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <p class="p">Don't have an account?</p>
+    <p  class="r"routerLink="/register">Create new account</p>
+  </ion-toolbar>
+</ion-footer>
+

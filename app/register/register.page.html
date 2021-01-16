@@ -1,9 +1,36 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>register</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
+  <div class="image">
+  <img src="assets/icon/register.svg" alt="welcome">
+  <h1>Get Started!<p><span class="semibold">Create an account</span></p></h1>
+  </div>
+  <form class="ion-padding">
 
+    <div class="wrap-input">
+      <input class="input" type="email" name="Email" placeholder="Email">
+      
+     </div>
+
+    <div class="wrap-input">
+    <input class="input" type="password" name="password" placeholder="Password">
+    </div>
+
+    <div class="wrap-input">
+    <input class="input" type="number" name="phone" placeholder="Phone Number">
+    </div> 
+
+    <div class="wrap-input">
+      <input class="input" type="text" name="crnumber" placeholder="CR Number">
+      </div> 
+      <div class="register-button">
+        <ion-button class="register" routerLink="/tabs">Sign Up</ion-button>
+      </div>
+</form>
 </ion-content>
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <p class="p">Already have an account?
+    <a routerLink="/login">Log in</a></p>
+  </ion-toolbar>
+</ion-footer>
+
+ 
