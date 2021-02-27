@@ -1,0 +1,55 @@
+
+.cancel-icon{
+    font-size: larger;
+    padding-top:23px;
+    padding-left: 23px;
+    color:#000000;
+    float:right;
+    padding-right:23px;
+    font-weight: 800;
+    }
+
+.cart-wrapper{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 66px;
+    
+    }
+  
+.cart-item{
+    height:120px;
+    width:100%;
+   
+    border-radius: 5px;
+  }
+.item-img{
+    position: relative;
+    width:78px;
+    height:50px;
+    background-color: aliceblue;
+}
+.item-details{
+    position: absolute;
+    padding-left:95px;
+    display: flex;
+   }
+   .delete-icon{
+       color:#DC1826;
+       float: right;
+   }
+   .item-name-arabic{
+       padding-top: 20px;
+  }
+  .item-det {
+      display: flex;
+  }
+  .item-det>ion-col{
+      padding: 5px;
+      font-size:12px;
+    }
+    .item-name-arab{
+        color:#000000;
+        padding-top: 2px;
+        
+    }
+  

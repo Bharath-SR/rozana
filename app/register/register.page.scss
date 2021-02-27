@@ -1,82 +1,62 @@
-.image{
-    width:201.52pt ;
-    height:201.12pt;
-    margin-top: 40pt;
+.imageholder{
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    }
-.semibold{
-    font-weight:400pt;
-    font-family: "poppins";
-    align-content: center;
-    font-size:large;
+    padding-top: 20px;
 }
-  h1{
-    margin-top: 34.75;
+.textContainer{
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    height: 34pt;
-    font-weight: 28pt;
-    font-weight: 800;
-    font-family: 'poppins';
 }
-p{
-    width: 170pt;
-    height:27pt;
-    font-weight: 22pt;
+h2{
+    margin-top:0%;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    font-family: 'poppins';
+    font-size: 22px;
 }
-ion-button{
-    width:272px;
-    height:50px;
-    margin-left: 37px;
-}
-
-    .p{
-        text-align: center;
-        width:272px;
-        height:50px;
-        font-size: 14px; 
-        margin-bottom: 5px;    
-    }
-    a{
-        color:#F4BC25;
-        text-decoration: none;
-    }
-
-
- 
- form {
-    margin-top: 27px;
-  }
-
-  .wrap-input {
+.wrap-input {
     margin-bottom: 27px;
     appearance: 5px 5px 5px 5px ;
-    width: 272px;
+    width:100%;
+    padding-left:30px;
+    padding-right:30px;
+    height:50px;
 
 }
 
   .input {
-    display: block;
-    width: 272px;
+    width: 100%;
+    height:50px;
     background: #F1F0EF;
-    font-family: Proxima Nova;
     font-size: 16px;
-    line-height: 1.2;
+    color:#767676;
     border: none;
     outline: none;
-    height: 50px;
-    padding: 0 20px 0 23px; 
     align-items: center;
-    margin-left: 37px;
-    margin-right: 36px;
-    border-radius: 1%;
-    box-shadow: 3px 3px 3px 3px #F1F0EF,
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px #F1F0EF;
+}
+.loginButton{
+    width: 100%;
+    height:50px;
+    background:#B20000;
+    color:#FFFFFF;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow:12px solid #B2000079 ;
+}
+.login{
+    padding-left:30px;
+    padding-right:30px;
+}
+.p{
+    text-align: center;
+    font-size: 14px; 
+    color:#8E8D8D;
+   }
+.create{
+    text-align: center;
+    font-size: 14px; 
+    color:#F2AE40;
+}
+.forgot{
+    text-align: right; font-size: 14px; 
+    color:#8E8D8D;
+    padding-right:30px;
 }

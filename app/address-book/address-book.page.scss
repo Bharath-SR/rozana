@@ -1,0 +1,60 @@
+ion-title{
+    padding-top:36px ;
+    padding-left: 23px;
+}
+.back-icon{
+    font-size: larger;
+    padding-top:15px;
+    padding-left: 23px;
+    color:#000000;
+    width: 18px;
+    height:18px;
+    }
+    .orderCard{
+        background: white;
+        height: 108px;
+        width: 100%;
+        padding-top: 0px;
+       
+        border-radius: 5px;
+        border-radius:#FFFFFF ;
+    
+    }
+    .orderHolders{
+        position: relative;
+        padding-left: 23px;
+        padding-right: 23px;
+        padding-top:102px;
+    }
+    .name{
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .ion-row-2{
+        color:#777777
+    }
+    .ion-row-3 {
+        color:#777777
+    }
+    .delete-icon{
+        color:#FC0F0F;
+        position: absolute;
+        right:32px;
+        bottom: 15px;
+        
+    }
+    .edit-icon{
+        position: absolute;
+        right:32px;
+        color:#8E8D8D;
+    }
+    ion-button{
+        position: absolute;
+        width: 329px;
+        height:50px;
+        align-items: center;
+        margin-left: 17pt;
+        bottom: 30px;
+    }
+    
+    

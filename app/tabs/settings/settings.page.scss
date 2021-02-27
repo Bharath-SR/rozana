@@ -1,0 +1,26 @@
+.ion-list{
+    padding-top: 66px;
+    font-size:  18px;
+    font-weight: 700;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+ } 
+ion-label{
+    margin-top:29px;
+    align-content: center;
+    
+}
+ion-item {
+    --border-width: 0;
+    --inner-border-width: 0;
+    border-bottom: solid 0.5pt #BEB6B6 !important;
+    border-end-start-radius: 10;
+}
+ion-icon{
+    margin-top:20px;
+    width:16px;
+    height:16px;
+    zoom: 1.5
+
+}

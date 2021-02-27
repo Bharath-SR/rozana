@@ -1,5 +1,70 @@
-#h1{
- font-weight: 800;
- font-family: 'proxima-nova', sans-serif;
+ion-icon{
+    float:right;
+    color:#DC1826;
+    font-size: 25px;
+    font-weight: 800;
+    padding-top: 15px;
+    padding-right: 25px;
+    --opacity: 100%!important;
+}
+.promotionBanner{
+    min-height: 20vh;
+    border-radius: 10px;
+    background-color: gray;
 
 }
+.promotionWrap{
+    padding: 20px;
+}
+
+
+.CategroyWrap{
+    padding:0 20px ;
+}
+
+.SingleCatagoryWrap{
+    border-radius: 5px;
+    min-height: 120px;
+    width: 100%;
+    background: linear-gradient(270deg, rgba(253,99,13,1) 0%, rgba(219,113,22,1) 35%, rgba(219,97,28,1) 100%);}
+
+
+
+.arabicCategory{
+    margin: 5px 0px !important;
+
+    color: white;
+    font-size: small;
+    
+    font-weight: 700;
+
+}
+
+.englishCategory{
+    margin: 5px 0px !important;
+    color: #FCDA7E;
+font-size: small;   
+ font-weight: 700;
+
+}
+.HeadingWrapper{
+    padding: 0px 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+
+
+
+}
+.headings-title{
+    display: inline-block;
+    margin: 0px;
+}
+
+.bannerSecondPromotion{
+    margin:  0px 20px;
+    border-radius: 5px;
+    min-height: 100px;
+    background-color: gray;
+}
+

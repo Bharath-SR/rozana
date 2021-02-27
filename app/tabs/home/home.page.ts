@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ModalController } from '@ionic/angular';
+import { CartPage } from 'src/app/cart/cart.page';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePage implements OnInit {
 
-  constructor() { }
+  constructor(private modlCtrl:ModalController) { }
 
   ngOnInit() {
   }
 
+  cart(){
+    this.modlCtrl.create({
+      component: CartPage,
+      cssClass:'cart-class'  
+    }).then( modalres=> {modalres.present();
+      cssclass:'cart-modal-scss'
+    }) 
+
+  }
 }

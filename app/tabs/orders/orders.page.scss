@@ -1,0 +1,75 @@
+ion-title{
+    font-size: 25px;
+    font-weight: 800;
+    background-color:#F5F5F5 ;
+    padding-top: 29px;
+    padding-left: 23px;
+   }
+ion-content{
+   margin-top: 43px;
+   }
+
+.ion-title{
+    font-size: 25px;
+    font-weight: 800;
+  }
+
+.orderCard{
+    background: white;
+    height: 108px;
+    width: 100%;
+    padding-top: 10px;
+    border-left:#1E9A00 6px solid ;
+    border-radius: 5px;
+    border-radius: #1E9900;
+
+}
+.orderHolders{
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top:102px;
+}
+.Order-number {
+    font-size:15px;
+    padding-left: 10px;
+    color: #5A5A5A;
+    
+}
+span{
+    font-size: 12px;
+    font-weight: bold;
+    color:#000000;
+    }
+.ion-row-1{
+    font-size:12px;
+    padding-left: 5px;
+    font-weight: 600;
+    color: #5A5A5A;
+    width: auto;
+    }
+.ion-row-2{
+        font-size:12px;
+        padding-left: 5px;
+        font-weight: 800;
+        color: #000000;
+        width: auto;
+    }
+.order-number{
+    font-size: 17px;
+    font-weight: bold;
+}
+.order-status{
+   color:#1E9A00;
+}
+.deliver-status{
+    color:#1E9A00;
+    font-size: 14px;
+}
+
+ion-icon{
+    color:#000000;
+    padding-left: 75px;
+    font-size: 17px;
+    font-weight: bold;
+}
+

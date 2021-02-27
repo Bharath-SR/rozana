@@ -1,36 +1,29 @@
 <ion-content>
-  <div class="image">
-  <img src="assets/icon/register.svg" alt="welcome">
-  <h1>Get Started!<p><span class="semibold">Create an account</span></p></h1>
+  <div class="imageholder">
+    <img src="assets/icon/register.svg" alt="welcome" />
   </div>
-  <form class="ion-padding">
+  <div class="textContainer">
+    <h1><b>Get started!</b></h1>
+    <h2>Create an account</h2>
+  </div>
 
+  <form class="formContainer">
     <div class="wrap-input">
-      <input class="input" type="email" name="Email" placeholder="Email">
-      
-     </div>
-
-    <div class="wrap-input">
-    <input class="input" type="password" name="password" placeholder="Password">
+    <ion-input class="input" type="email" name="Email" placeholder="Email"></ion-input>
     </div>
-
     <div class="wrap-input">
-    <input class="input" type="number" name="phone" placeholder="Phone Number">
-    </div> 
-
+      <ion-input class="input" type="password" name="password" placeholder="Password"></ion-input>
+    </div>
     <div class="wrap-input">
-      <input class="input" type="text" name="crnumber" placeholder="CR Number">
-      </div> 
-      <div class="register-button">
-        <ion-button class="register" routerLink="/tabs">Sign Up</ion-button>
+      <ion-input class="input" type="number" name="PhoneNumber" placeholder="Phone Number"></ion-input>
       </div>
-</form>
-</ion-content>
-<ion-footer class="ion-no-border">
-  <ion-toolbar>
-    <p class="p">Already have an account?
-    <a routerLink="/login">Log in</a></p>
-  </ion-toolbar>
-</ion-footer>
+      <div class="wrap-input">
+        <ion-input class="input" type="number" name="CRNumber" placeholder="CR Number"></ion-input>
+      </div>
+    <div class="login">
+    <ion-button class="loginButton" routerLink="/tabs">Sign Up</ion-button>
+   </div>
+  </form>
+  <p class="p">Already have an account?<span style="color:#F4BC25 ; padding-left: 10px;"routerLink="/login">Log in</span></p>
 
- 
+</ion-content>
